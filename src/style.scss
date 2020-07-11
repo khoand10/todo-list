@@ -1,0 +1,25 @@
+.content {
+    border: .1rem solid #cecaca;
+    border-radius: 3px;
+    min-height: 600px;
+    .title {
+        text-align: center;
+    }
+    .action {
+        float: right;
+        bottom: 4px;
+    }
+    .list-done {
+        border: .1rem solid #f1eeee;
+        border-radius: 3px;
+        min-height: 100px;
+        margin-top: 10px;
+        padding: 5px;
+        .badge {
+            margin-right: 5px;
+        }
+    }
+    .message {
+        margin: 10px;
+    }
+}
